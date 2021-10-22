@@ -11,7 +11,10 @@ A Potato-themed backdoor developed in C#.
 - A server listening for incomming connections. 
 
 ## Installation
-- Download a copy of the Github repository.
+- Clone a copy of the Github repository.
+```
+git clone https://github.com/malwaredetective/spudnet.git
+```
 - Open **SpudBot.Sln** within Visual Studio.
 - Build the solution within Visual Studio. 
 
@@ -33,7 +36,7 @@ The SpudNet framework contains built-in commands for the server to help *Spudify
 | calc | Spawn an instance of calc.exe. |
 | fact | Send the Client a Random SpudFact via Windows Notification. |
 | music | Play the Client some Music: [The Potato Song](https://www.youtube.com/watch?v=q7uyKYeGPdE). |
-| persistance | Copy SpudBot.exe to %AppData% and Update the Windows Registry to launch SpudBot.exe on Startup | |
+| persistance | Copy SpudBot.exe to %AppData% and modify the Windows Registry to launch SpudBot.exe on Startup |
 | search | Search for Potatoes near the Client in a Web Browser. |
 | status | Report the Status of the Connection |
 | video | Download and Play a Video Recipe for the Client |
