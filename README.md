@@ -45,4 +45,7 @@ The SpudNet framework contains built-in commands for the server to help *Spudify
 | status | Report the Status of LilSpud. |
 | whoami | Query System Information |
 | exit | Terminate the Current Session. |
+
+For additional information, review the command reference guide on the Wiki: https://github.com/malwaredetective/spudnet/wiki.
+
 ---
