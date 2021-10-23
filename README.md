@@ -46,6 +46,6 @@ The SpudNet framework contains built-in commands for the server to help *Spudify
 | whoami | Query System Information |
 | exit | Terminate the Current Session. |
 
-For additional information, review the command reference guide on the Wiki: https://github.com/malwaredetective/spudnet/wiki.
+For additional information, reference the command reference guide on the Wiki: https://github.com/malwaredetective/spudnet/wiki.
 
 ---
