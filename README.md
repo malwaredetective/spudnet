@@ -32,14 +32,14 @@ The SpudNet framework contains built-in commands for the server to help *Spudify
 | Command | Description |
 | --- | --- |
 | help | Print out a list of Commands. |
-| background | Update the Clients Desktop Background. |
-| calc | Spawn an instance of calc.exe. |
-| fact | Send the Client a Random SpudFact via Windows Notification. |
-| music | Play the Client some Music: [The Potato Song](https://www.youtube.com/watch?v=q7uyKYeGPdE). |
-| persistance | Copy SpudBot.exe to %AppData% and modify the Windows Registry to launch SpudBot.exe on Startup |
-| search | Search for Potatoes near the Client in a Web Browser. |
-| status | Report the Status of the Connection |
-| video | Download and Play a Video Recipe for the Client |
-| whoami | Query System Information about the Client. |
-| exit | Terminate the Existing Session and close SpudBot.exe for the Client. |
+| calc | Count Potatoes with Calculator. |
+| desktop | Spudify the Clients Desktop Background. |
+| download | Download LilSpud's favorite Poem. | 
+| fact | Send LilSpud a random Spudfact. |
+| search | Find Potatoes Near LilSpud. |
+| shell | Establish a Command Shell with LilSpud. |
+| startup | Launch Spudnet on start-up. |
+| status | Report the Status of LilSpud. |
+| whoami | Query System Information |
+| exit | Terminate the Current Session. |
 ---
