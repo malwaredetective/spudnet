@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SpudBot")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A Potato-themed backdoor developed in C#.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("https://github.com/malwaredetective/spudnet")]
 [assembly: AssemblyProduct("SpudBot")]
-[assembly: AssemblyCopyright("Copyright © 2021 SpudMuffin")]
+[assembly: AssemblyCopyright("Copyright © 2022 SpudMuffin")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
