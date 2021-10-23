@@ -11,7 +11,7 @@ A Potato-themed backdoor developed in C#.
 - A server listening for incomming connections. 
 
 ## Download
-You can download the latest release of SpudBot.exe from https://github.com/malwaredetective/spudnet/releases/tag/v1.0.0. 
+You can download the latest release of SpudBot.exe from https://github.com/malwaredetective/spudnet/releases/. 
 
 ## Building from Source Code
 - Clone a copy of the Github repository.
