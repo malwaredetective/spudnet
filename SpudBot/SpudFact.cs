@@ -60,7 +60,7 @@ namespace SpudBot
 
         public static Icon Application { get; }
 
-        public static void DisplaySpudFact()
+        public static string DisplaySpudFact()
         {
             randomSpudFact = GetSpudFact();
             notifyIcon.Icon = SystemIcons.Application;
@@ -69,6 +69,7 @@ namespace SpudBot
             notifyIcon.BalloonTipIcon = ToolTipIcon.None;
             notifyIcon.Visible = true;
             notifyIcon.ShowBalloonTip(30000);
+            return randomSpudFact;
         }
     }
 }

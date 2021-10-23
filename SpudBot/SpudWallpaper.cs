@@ -24,8 +24,9 @@ namespace SpudBot
             Image image;
             using (MemoryStream ms = new MemoryStream(potatoImage))
             {
+                string currentUser = Environment.GetEnvironmentVariable("USERNAME");
                 image = Image.FromStream(ms);
-                image.Save(@"C:\\Temp\\potatoes.bmp", ImageFormat.Bmp);
+                image.Save(@"C:\\Users\\" + currentUser + "\\Downloads\\potatoes.bmp", ImageFormat.Bmp);
             }
 
             string tempPath =  "C:\\Temp\\potatoes.bmp";
